@@ -1,0 +1,7 @@
+// Shared defaults contain no developer account or team identity.
+DEVELOPMENT_TEAM =
+
+// Contributors can override this default with their own unique identifier.
+APP_BUNDLE_IDENTIFIER = dev.sign2speak.app
+
+#include? "Signing.local.xcconfig"
