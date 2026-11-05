@@ -1,0 +1,6 @@
+// Copy this file to Signing.local.xcconfig (ignored by Git).
+// Enter your own Apple development team for physical-device signing.
+DEVELOPMENT_TEAM =
+
+// Optional: uncomment and choose a unique bundle ID for your own team.
+// APP_BUNDLE_IDENTIFIER = com.yourname.sign2speak
