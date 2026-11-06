@@ -5,6 +5,8 @@ The app turns a small vocabulary of ASL signs into spoken English, using on-devi
 
 The current vocabulary contains 50 signs. Recognition, sentence quality, speed and memory use are still being evaluated; this is an MVP rather than general ASL translation. Camera frames and conversation text are not uploaded anywhere.
 
+<img width="2605" height="1910" alt="image" src="https://github.com/user-attachments/assets/63024852-324b-43e1-95f1-86b6cee552b9" />
+
 ## Requirements
 
 - macOS on Apple Silicon, full Xcode and its command-line tools, Python 3.9 or newer, and Git LFS.
