@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "repository": "https://github.com/readdle/tensorflow-lite-swift",
+  "tag": "2.16.1",
+  "revision": "3752f2ec00a04c13ece05fb420d2575178b321b9",
+  "sourceFiles": [
+    {
+      "path": "Sources/TensorFlowLite/Delegate.swift",
+      "bytes": 1058,
+      "sha256": "5adda96c727bda9516f09ec636b4df020d226ff6c5387d84ff79b75f5bdaf92b"
+    },
+    {
+      "path": "Sources/TensorFlowLite/Interpreter.swift",
+      "bytes": 17058,
+      "sha256": "3aa02ba1a32d943726dc421fb2720893da7021c7ca9ed5e36811bb87ae89f5bf"
+    },
+    {
+      "path": "Sources/TensorFlowLite/InterpreterError.swift",
+      "bytes": 2781,
+      "sha256": "d0acf8467e1429a1904181f39205a554fb4dbace01b63ce881e370baed129e23"
+    },
+    {
+      "path": "Sources/TensorFlowLite/Model.swift",
+      "bytes": 2143,
+      "sha256": "464c77db1a8c2b8e81ebfe32c3cfb266ff3443d6836fd8855e0ce4eff402c81d"
+    },
+    {
+      "path": "Sources/TensorFlowLite/QuantizationParameters.swift",
+      "bytes": 1623,
+      "sha256": "606a6470202f502059223b0d50dc9d773214fb0650c45bb2804a1f37dc6dc4a8"
+    },
+    {
+      "path": "Sources/TensorFlowLite/SignatureRunner.swift",
+      "bytes": 11209,
+      "sha256": "f8595ab6a25b677a90aec003bf8f3ffce58a20c29601331b2ad7c509c0e3bad1"
+    },
+    {
+      "path": "Sources/TensorFlowLite/SignatureRunnerError.swift",
+      "bytes": 2835,
+      "sha256": "8b74ce63784463c435e3d728b3c062ef8d1edb0a9fbd7350b34dc9cdcd54999f"
+    },
+    {
+      "path": "Sources/TensorFlowLite/Tensor.swift",
+      "bytes": 4683,
+      "sha256": "437265c85999ba4ede1918b2f510cefb7cdfb1d35b442e6eb131548a56aefc04"
+    },
+    {
+      "path": "Sources/TensorFlowLite/TensorFlowLite.swift",
+      "bytes": 1025,
+      "sha256": "afb2f39ca7227df3cd47b8d94f621138f120f57ea4906dedd2fe4cc5b9b7eb0e"
+    }
+  ],
+  "archive": {
+    "url": "https://github.com/readdle/tensorflow-lite-swift/releases/download/2.16.1/TensorFlowLiteC-2.16.1.xcframework.zip",
+    "releaseAssetID": 183475553,
+    "bytes": 8062745,
+    "sha256": "c3d00a89a97999510ce9acee5063a847dc9b6fbf3353ae97d50bb8f94270a6bf",
+    "upstreamManifestSHA256": "609d872d61d5553071a1c179ad7ddfc1a73b3ddc020a615e2a726e39fff4105e",
+    "verification": "Xcode cached archive matches independent HTTPS re-fetch; release API confirms asset ID/URL/size; ZIP CRC and platform metadata inspected. Publisher API does not provide an archive digest."
+  }
+}
