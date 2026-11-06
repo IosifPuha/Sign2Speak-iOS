@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "sdk": {
+    "repository": "https://github.com/google-ai-edge/mediapipe",
+    "release": "1.1.0",
+    "revision": "821db8a4428baf58bf4c09a0330c937e6e0a3753",
+    "product": "MediaPipeTasksVision"
+  },
+  "digestProvenance": "Candidate size/SHA-256 pins measured from the owner's local reference assets. They are not publisher-provided checksums. Download the official version-1 artifacts independently and require an exact match; investigate a mismatch before revising these pins. No reference assets are copied.",
+  "models": [
+    {
+      "filename": "hand_landmarker.task",
+      "url": "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
+      "version": "1",
+      "bytes": 7819105,
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1",
+      "license": "Apache-2.0 according to the linked model card",
+      "modelCards": [
+        "https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Hand%20Tracking%20(Lite_Full)%20with%20Fairness%20Oct%202021.pdf"
+      ]
+    },
+    {
+      "filename": "face_landmarker.task",
+      "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+      "version": "1",
+      "bytes": 3758596,
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "license": "Apache-2.0 according to the linked component model cards",
+      "modelCards": [
+        "https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20(Short%20Range).pdf",
+        "https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf",
+        "https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Blendshape%20V2.pdf"
+      ]
+    }
+  ],
+  "classifier": {
+    "bytes": 7057180,
+    "sha256": "08d0af17c7dcf3a690b9228415513ded5452d3fcd1889ef9268db659e3fc1bcb",
+    "referenceRepository": "https://github.com/Pirodax/Sign2Speak-GEMMA-4-GOOD-HACKATHON",
+    "referenceRevision": "4193601bd464025a17d167b5ada4e2338adc12ee",
+    "sourcePath": "On_device/app/src/main/assets/classifier.tflite",
+    "filename": "reference_classifier_v1.tflite",
+    "permission": "Owner confirms the reference creator permits public redistribution of the classifier and adapted material (2026-11-05). This is a recorded permission statement, not a repository-wide license or a grant covering unrelated third-party assets.",
+    "url": "https://raw.githubusercontent.com/Pirodax/Sign2Speak-GEMMA-4-GOOD-HACKATHON/4193601bd464025a17d167b5ada4e2338adc12ee/On_device/app/src/main/assets/classifier.tflite"
+  },
+  "fixture": {
+    "filename": "classifier_fixture_v1.tflite",
+    "bytes": 142904,
+    "sha256": "147b367d40f4c62027f11ff718ca76c46663a2db9dc2d445b6dd9be8a49cb6d6"
+  }
+}
