@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B00000000000000000000602 /* ReplyCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000602 /* ReplyCaptionView.swift */; };
+		B00000000000000000000601 /* LocalReplyRecognitionDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000601 /* LocalReplyRecognitionDriver.swift */; };
+		B00000000000000000000600 /* ReplyRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000600 /* ReplyRecognition.swift */; };
+		B00000000000000000000093 /* LaunchMark.png in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000093; };
+		B00000000000000000000094 /* LaunchMark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000094; };
+		B00000000000000000000095 /* LaunchMark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000095; };
+		B00000000000000000000092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000092 /* Assets.xcassets */; };
+		B00000000000000000000089 /* AppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000089 /* AppLaunchScreen.storyboard */; };
+		A0000000000000000000006A /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000069; };
+		A00000000000000000000068 /* LocalSpeechDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000067; };
+		A00000000000000000000065 /* reference_classifier_v1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000063; };
+		A00000000000000000000066 /* reference_classifier_v1.json in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000064; };
+		A00000000000000000000060 /* FeatureEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000059 /* FeatureEncoder.swift */; };
+		A00000000000000000000062 /* TrainedClassifierRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000061 /* TrainedClassifierRunner.swift */; };
+		A00000000000000000000055 /* ClassifierFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000053 /* ClassifierFixture.swift */; };
+		A00000000000000000000056 /* ClassifierRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000054 /* ClassifierRunner.swift */; };
+		A00000000000000000000058 /* classifier_fixture_v1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000057 /* classifier_fixture_v1.tflite */; };
+		A00000000000000000000052 /* TensorFlowLite in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000051 /* TensorFlowLite */; };
+		A00000000000000000000046 /* LandmarkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000045 /* LandmarkProcessor.swift */; };
+		A00000000000000000000039 /* MediaPipeTasksVision in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000038 /* MediaPipeTasksVision */; };
+		A00000000000000000000042 /* hand_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000040 /* hand_landmarker.task */; };
+		A00000000000000000000043 /* face_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000041 /* face_landmarker.task */; };
+		A00000000000000000000034 /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000033 /* CameraCapture.swift */; };
+		A00000000000000000000036 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000035 /* CameraPreview.swift */; };
+		A00000000000000000000024 /* Sign2SpeakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000020 /* Sign2SpeakApp.swift */; };
+		A00000000000000000000025 /* ConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000021 /* ConversationController.swift */; };
+		A00000000000000000000026 /* GemmaRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000022 /* GemmaRunner.swift */; };
+		A00000000000000000000027 /* ModelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000023 /* ModelStore.swift */; };
+		A00000000000000000000029 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000028 /* DiagnosticsView.swift */; };
+		A00000000000000000000032 /* LiteRTLM in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000031 /* LiteRTLM */; };
+		B00000000000000000000080 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000080 /* AppError.swift */; };
+		B00000000000000000000081 /* SentenceGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000081 /* SentenceGeneration.swift */; };
+		B00000000000000000000082 /* CameraModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000082 /* CameraModels.swift */; };
+		B00000000000000000000083 /* ContinuousSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000083 /* ContinuousSigning.swift */; };
+		B00000000000000000000084 /* SpeechModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000084 /* SpeechModels.swift */; };
+		B00000000000000000000085 /* DiagnosticsReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000085 /* DiagnosticsReport.swift */; };
+		B00000000000000000000086 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000086 /* AppRootView.swift */; };
+		B00000000000000000000087 /* ModelDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000087 /* ModelDownloadService.swift */; };
+		B00000000000000000000088 /* ModelSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000088 /* ModelSetupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000602 /* ReplyCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyCaptionView.swift; sourceTree = "<group>"; };
+		A00000000000000000000601 /* LocalReplyRecognitionDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalReplyRecognitionDriver.swift; sourceTree = "<group>"; };
+		A00000000000000000000600 /* ReplyRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyRecognition.swift; sourceTree = "<group>"; };
+		A00000000000000000000093 /* LaunchMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchAssets/LaunchMark.png; sourceTree = "<group>"; };
+		A00000000000000000000094 /* LaunchMark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchAssets/LaunchMark@2x.png"; sourceTree = "<group>"; };
+		A00000000000000000000095 /* LaunchMark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchAssets/LaunchMark@3x.png"; sourceTree = "<group>"; };
+		A00000000000000000000092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000090 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config/Signing.xcconfig; sourceTree = SOURCE_ROOT; };
+		A00000000000000000000089 /* AppLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppLaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00000000000000000000069 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		A00000000000000000000067 /* LocalSpeechDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSpeechDriver.swift; sourceTree = "<group>"; };
+		A00000000000000000000063 /* reference_classifier_v1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = reference_classifier_v1.tflite; sourceTree = "<group>"; };
+		A00000000000000000000064 /* reference_classifier_v1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = reference_classifier_v1.json; sourceTree = "<group>"; };
+		A00000000000000000000059 /* FeatureEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureEncoder.swift; sourceTree = "<group>"; };
+		A00000000000000000000061 /* TrainedClassifierRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainedClassifierRunner.swift; sourceTree = "<group>"; };
+		A00000000000000000000053 /* ClassifierFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierFixture.swift; sourceTree = "<group>"; };
+		A00000000000000000000054 /* ClassifierRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierRunner.swift; sourceTree = "<group>"; };
+		A00000000000000000000057 /* classifier_fixture_v1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = classifier_fixture_v1.tflite; sourceTree = "<group>"; };
+		A00000000000000000000045 /* LandmarkProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkProcessor.swift; sourceTree = "<group>"; };
+		A00000000000000000000040 /* hand_landmarker.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = hand_landmarker.task; sourceTree = "<group>"; };
+		A00000000000000000000041 /* face_landmarker.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = face_landmarker.task; sourceTree = "<group>"; };
+		A00000000000000000000033 /* CameraCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraCapture.swift; sourceTree = "<group>"; };
+		A00000000000000000000035 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 /* Sign2Speak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sign2Speak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000020 /* Sign2SpeakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign2SpeakApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000021 /* ConversationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationController.swift; sourceTree = "<group>"; };
+		A00000000000000000000022 /* GemmaRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemmaRunner.swift; sourceTree = "<group>"; };
+		A00000000000000000000023 /* ModelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000028 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+		A00000000000000000000080 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		A00000000000000000000081 /* SentenceGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentenceGeneration.swift; sourceTree = "<group>"; };
+		A00000000000000000000082 /* CameraModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModels.swift; sourceTree = "<group>"; };
+		A00000000000000000000083 /* ContinuousSigning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuousSigning.swift; sourceTree = "<group>"; };
+		A00000000000000000000084 /* SpeechModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechModels.swift; sourceTree = "<group>"; };
+		A00000000000000000000085 /* DiagnosticsReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsReport.swift; sourceTree = "<group>"; };
+		A00000000000000000000086 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		A00000000000000000000087 /* ModelDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDownloadService.swift; sourceTree = "<group>"; };
+		A00000000000000000000088 /* ModelSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000052 /* TensorFlowLite in Frameworks */,
+				A00000000000000000000032 /* LiteRTLM in Frameworks */,
+				A00000000000000000000039 /* MediaPipeTasksVision in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000009 /* Sign2Speak */,
+				B00000000000000000000090 /* Signing.xcconfig */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000008 /* Sign2Speak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000009 /* Sign2Speak */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000600 /* ReplyRecognition.swift */,
+				A00000000000000000000601 /* LocalReplyRecognitionDriver.swift */,
+				A00000000000000000000602 /* ReplyCaptionView.swift */,
+				A00000000000000000000045 /* LandmarkProcessor.swift */,
+				A00000000000000000000059 /* FeatureEncoder.swift */,
+				A00000000000000000000061 /* TrainedClassifierRunner.swift */,
+				A00000000000000000000053 /* ClassifierFixture.swift */,
+				A00000000000000000000054 /* ClassifierRunner.swift */,
+				A00000000000000000000033 /* CameraCapture.swift */,
+				A00000000000000000000035 /* CameraPreview.swift */,
+				A00000000000000000000044 /* Models */,
+				A00000000000000000000089 /* AppLaunchScreen.storyboard */,
+				A00000000000000000000093 /* LaunchMark.png */,
+				A00000000000000000000094 /* LaunchMark@2x.png */,
+				A00000000000000000000095 /* LaunchMark@3x.png */,
+				A00000000000000000000092 /* Assets.xcassets */,
+				A00000000000000000000020 /* Sign2SpeakApp.swift */,
+				A00000000000000000000021 /* ConversationController.swift */,
+				A00000000000000000000022 /* GemmaRunner.swift */,
+				A00000000000000000000023 /* ModelStore.swift */,
+				A00000000000000000000088 /* ModelSetupView.swift */,
+				A00000000000000000000087 /* ModelDownloadService.swift */,
+				A00000000000000000000086 /* AppRootView.swift */,
+				A00000000000000000000085 /* DiagnosticsReport.swift */,
+				A00000000000000000000084 /* SpeechModels.swift */,
+				A00000000000000000000083 /* ContinuousSigning.swift */,
+				A00000000000000000000082 /* CameraModels.swift */,
+				A00000000000000000000081 /* SentenceGeneration.swift */,
+				A00000000000000000000080 /* AppError.swift */,
+				A00000000000000000000028 /* DiagnosticsView.swift */,
+				A00000000000000000000067 /* LocalSpeechDriver.swift */,
+				A00000000000000000000069 /* ConversationView.swift */,
+			);
+			path = Sign2Speak;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000044 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000040 /* hand_landmarker.task */,
+				A00000000000000000000041 /* face_landmarker.task */,
+				A00000000000000000000057 /* classifier_fixture_v1.tflite */,
+				A00000000000000000000063 /* reference_classifier_v1.tflite */,
+				A00000000000000000000064 /* reference_classifier_v1.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000002 /* Sign2Speak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000011 /* Build configuration list for PBXNativeTarget "Sign2Speak" */;
+			buildPhases = (
+				A00000000000000000000005 /* Sources */,
+				A00000000000000000000006 /* Frameworks */,
+				A00000000000000000000007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sign2Speak;
+			packageProductDependencies = (
+				A00000000000000000000051 /* TensorFlowLite */,
+				A00000000000000000000031 /* LiteRTLM */,
+				A00000000000000000000038 /* MediaPipeTasksVision */,
+			);
+			productName = Sign2Speak;
+			productReference = A00000000000000000000008 /* Sign2Speak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A00000000000000000000002 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000010 /* Build configuration list for PBXProject "Sign2Speak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			packageReferences = (
+				A00000000000000000000030 /* XCRemoteSwiftPackageReference "LiteRT-LM" */,
+				A00000000000000000000037 /* XCRemoteSwiftPackageReference "mediapipe" */,
+				A00000000000000000000050 /* XCLocalSwiftPackageReference "Packages/TensorFlowLiteSwift" */,
+			);
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000002 /* Sign2Speak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000093 /* LaunchMark.png in Resources */,
+				B00000000000000000000094 /* LaunchMark@2x.png in Resources */,
+				B00000000000000000000095 /* LaunchMark@3x.png in Resources */,
+				B00000000000000000000092 /* Assets.xcassets in Resources */,
+				B00000000000000000000089 /* AppLaunchScreen.storyboard in Resources */,
+				A00000000000000000000042 /* hand_landmarker.task in Resources */,
+				A00000000000000000000043 /* face_landmarker.task in Resources */,
+				A00000000000000000000058 /* classifier_fixture_v1.tflite in Resources */,
+				A00000000000000000000065 /* reference_classifier_v1.tflite in Resources */,
+				A00000000000000000000066 /* reference_classifier_v1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000600 /* ReplyRecognition.swift in Sources */,
+				B00000000000000000000601 /* LocalReplyRecognitionDriver.swift in Sources */,
+				B00000000000000000000602 /* ReplyCaptionView.swift in Sources */,
+				A00000000000000000000046 /* LandmarkProcessor.swift in Sources */,
+				A00000000000000000000060 /* FeatureEncoder.swift in Sources */,
+				A00000000000000000000062 /* TrainedClassifierRunner.swift in Sources */,
+				A00000000000000000000055 /* ClassifierFixture.swift in Sources */,
+				A00000000000000000000056 /* ClassifierRunner.swift in Sources */,
+				A00000000000000000000034 /* CameraCapture.swift in Sources */,
+				A00000000000000000000036 /* CameraPreview.swift in Sources */,
+				A00000000000000000000024 /* Sign2SpeakApp.swift in Sources */,
+				A00000000000000000000025 /* ConversationController.swift in Sources */,
+				A00000000000000000000026 /* GemmaRunner.swift in Sources */,
+				A00000000000000000000027 /* ModelStore.swift in Sources */,
+				B00000000000000000000088 /* ModelSetupView.swift in Sources */,
+				B00000000000000000000087 /* ModelDownloadService.swift in Sources */,
+				B00000000000000000000086 /* AppRootView.swift in Sources */,
+				B00000000000000000000085 /* DiagnosticsReport.swift in Sources */,
+				B00000000000000000000084 /* SpeechModels.swift in Sources */,
+				B00000000000000000000083 /* ContinuousSigning.swift in Sources */,
+				B00000000000000000000082 /* CameraModels.swift in Sources */,
+				B00000000000000000000081 /* SentenceGeneration.swift in Sources */,
+				B00000000000000000000080 /* AppError.swift in Sources */,
+				A00000000000000000000029 /* DiagnosticsView.swift in Sources */,
+				A00000000000000000000068 /* LocalSpeechDriver.swift in Sources */,
+				A0000000000000000000006A /* ConversationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00000000000000000000090 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sign2Speak;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to show spoken replies as readable text.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognize English replies on this iPhone so the signer can read them.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use the front camera to recognize your signs. Camera images stay on this iPhone.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppLaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00000000000000000000090 /* Signing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = x86_64;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Sign2Speak;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use the microphone to show spoken replies as readable text.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Recognize English replies on this iPhone so the signer can read them.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use the front camera to recognize your signs. Camera images stay on this iPhone.";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = AppLaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000010 /* Build configuration list for PBXProject "Sign2Speak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000012 /* Debug */,
+				A00000000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000011 /* Build configuration list for PBXNativeTarget "Sign2Speak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000014 /* Debug */,
+				A00000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A00000000000000000000050 /* XCLocalSwiftPackageReference "Packages/TensorFlowLiteSwift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TensorFlowLiteSwift;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000000000000000000037 /* XCRemoteSwiftPackageReference "mediapipe" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-ai-edge/mediapipe";
+			requirement = {
+				kind = revision;
+				revision = 821db8a4428baf58bf4c09a0330c937e6e0a3753;
+			};
+		};
+		A00000000000000000000030 /* XCRemoteSwiftPackageReference "LiteRT-LM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-ai-edge/LiteRT-LM";
+			requirement = {
+				kind = exactVersion;
+				version = 0.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000051 /* TensorFlowLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000050 /* XCLocalSwiftPackageReference "Packages/TensorFlowLiteSwift" */;
+			productName = TensorFlowLite;
+		};
+		A00000000000000000000038 /* MediaPipeTasksVision */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000037 /* XCRemoteSwiftPackageReference "mediapipe" */;
+			productName = MediaPipeTasksVision;
+		};
+		A00000000000000000000031 /* LiteRTLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000030 /* XCRemoteSwiftPackageReference "LiteRT-LM" */;
+			productName = LiteRTLM;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}

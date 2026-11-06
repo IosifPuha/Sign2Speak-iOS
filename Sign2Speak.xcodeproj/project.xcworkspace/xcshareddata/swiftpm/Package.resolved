@@ -1,0 +1,23 @@
+{
+  "originHash" : "28466be05765fc6e3160ce018e4eacf890e9f177abb7e50c3071cbae398cdea1",
+  "pins" : [
+    {
+      "identity" : "litert-lm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google-ai-edge/LiteRT-LM",
+      "state" : {
+        "revision" : "b2f686e2ed4718fb84ec398a61dd59ca0f0aff27",
+        "version" : "0.18.0"
+      }
+    },
+    {
+      "identity" : "mediapipe",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/google-ai-edge/mediapipe",
+      "state" : {
+        "revision" : "821db8a4428baf58bf4c09a0330c937e6e0a3753"
+      }
+    }
+  ],
+  "version" : 3
+}
