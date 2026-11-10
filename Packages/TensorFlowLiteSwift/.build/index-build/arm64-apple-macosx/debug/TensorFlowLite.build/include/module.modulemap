@@ -1,3 +1,0 @@
-module TensorFlowLite {
-    header "/Users/dev/projects/sign2speak-ios/.build/publication-ready-v50/Packages/TensorFlowLiteSwift/.build/index-build/arm64-apple-macosx/debug/TensorFlowLite.build/include/TensorFlowLite-Swift.h"
-}
